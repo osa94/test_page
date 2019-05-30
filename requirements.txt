@@ -1,0 +1,9 @@
+external modules:
+
+pytest          4.3.0
+selenium        3.141.0
+
+-----------------------------------
+webbrowser:
+
+Google Chrome v.74.0.3729.169
