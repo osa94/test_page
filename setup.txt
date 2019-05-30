@@ -1,5 +1,6 @@
-1. Otórz wiersz poleceñ cmd
-2. PrzejdŸ do katalogu z projektem
-3. Wpisz komendê : python test_page.py
+1. Nale¿y upewniæ siê, ¿e zainstalowane s¹ wszytkie elementy zawarte w requirements.txt 
+2. Otórz wiersz poleceñ cmd
+3. PrzejdŸ do katalogu z projektem
+4. Wpisz komendê : python test_page.py
 
 Skrypt powinien uruchomiæ 7 pomyœlnie zdanych testów
