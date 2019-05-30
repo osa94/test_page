@@ -16,18 +16,21 @@ class TestWebPage:
         cls.driver.close()
 
     def test_first_name_initial_value(self):
+        self.driver.get("https://cdn.clearcode.pl/2019/05/index2.html")
         if self.driver.find_element_by_xpath('//*[@id="firstname-input"]').get_attribute("value") == 'Mickey':
             assert True
         else:
             assert False
 
     def test_last_name_initial_value(self):
+        self.driver.get("https://cdn.clearcode.pl/2019/05/index2.html")
         if self.driver.find_element_by_xpath('//*[@id="lastname-input"]').get_attribute("value") == 'Mouse':
             assert True
         else:
             assert False
 
     def test_submit_button_text(self):
+        self.driver.get("https://cdn.clearcode.pl/2019/05/index2.html")
         if self.driver.find_element_by_xpath('// *[ @ id = "submit-button"]').get_attribute("value") == 'Submit':
             assert True
         else:
