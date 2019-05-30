@@ -1,0 +1,5 @@
+1. Otórz wiersz poleceñ cmd
+2. PrzejdŸ do katalogu z projektem
+3. Wpisz komendê : python test_page.py
+
+Skrypt powinien uruchomiæ 7 pomyœlnie zdanych testów
